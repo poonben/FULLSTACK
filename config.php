@@ -46,7 +46,7 @@ $directus_cache = true; // The default API calls will be cached locally, if true
 $random_cache_code = ''; // Consider changing this code to any alpha-numeric phrase, to make it harder for others to trigger the resource hungry cache & rebuild process. You will need to add this as purge_rebuild_code query param to the cache URL, e.g. YOURDOMAIN.com/purge/directus_cache?purge_rebuild_code=7347373467.
 
 // Base URL of your microsite.
-$the_page_url = 'https://YOURDOMAIN.com/';
+$the_page_url = 'https://fullst.herokuapp.com/';
 // $the_page_url = '/'; // (use this for localhost dev/tests via Docker)
 
 // PWA settings.
@@ -60,8 +60,8 @@ $the_page_meta_defaults = array();
 $the_page_meta_defaults['title'] = 'Put your default page title here.';
 $the_page_meta_defaults['description'] = 'Put your default meta description here.';
 $the_page_meta_defaults['keywords'] = 'Keyword1, Keyword2, Keyword3, Up to 10';
-$the_page_meta_defaults['author'] = 'YOUR NAME';
-$the_page_meta_defaults['publisher'] = 'YOUR NAME';
+$the_page_meta_defaults['author'] = 'bensin';
+$the_page_meta_defaults['publisher'] = 'bensin';
 $the_page_meta_defaults['twitter'] = ''; // your twitter name (without any @)
 $the_page_meta_defaults['robots'] = 'index,follow';
 
